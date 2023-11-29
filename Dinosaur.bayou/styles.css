@@ -7,3 +7,21 @@ body {
 .time {
     padding-left: 3em;
 }
+a:link,
+a:visited {
+    color: rgb(180, 216, 180);
+    padding: 1.25em;
+    background-color: rgb(94, 76, 48);
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+a:hover,
+a:visited:hover {
+    color: rgb(95, 87, 49);
+    background-color: rgb(180, 216, 180);;
+}
+/* a:visited {
+    color: rgb(60, 104, 60);
+} */
+
