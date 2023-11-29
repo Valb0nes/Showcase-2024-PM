@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Cormorant+Garamond&family=Sacramento&family=Sedgwick+Ave+Display&display=swap');
+body {
+    color: black;
+    background-color: #b2a696;
+    font-family: 'garamond';
+}
+.time {
+    padding-left: 3em;
+}
