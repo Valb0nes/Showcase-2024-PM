@@ -4,6 +4,11 @@ body {
     background-color: #b2a696;
     font-family: 'garamond';
 }
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 .time {
     padding-left: 3em;
 }
@@ -50,6 +55,21 @@ a:visited:hover {
     box-sizing: border-box;
 }
 .summary {
-   color: #5c443a;
-   background-color: #5c443a;
+  
+}
+.img1 {
+width: 48%;
+height: 24%;
+}
+.img2 {
+    width: 25%;
+    height: 24%;
+}
+.img3 {
+width: 33.3%;
+height: 24%;
+}
+.images {
+    display: flex;
+    justify-content: space-between;
 }
