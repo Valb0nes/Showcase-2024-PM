@@ -70,6 +70,11 @@ width: 49%;
 .quarter {
     width: 25%;
 }
+.quarter2 {
+    width: 25%;
+    height: 100vh;
+    object-fit: cover;
+}
 .third {
 width: 33.3%;
 }
