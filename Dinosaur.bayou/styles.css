@@ -31,6 +31,12 @@ a:visited:hover {
 /* a:visited {
     color: rgb(60, 104, 60);
 } */
+.flex {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 1em 0;
+}
 .ticket {
     background-color: #d7d3c7;
     border: solid;
@@ -45,13 +51,18 @@ a:visited:hover {
 }
 .package {
     background-color: #5c443a; 
-    padding: 1em;
+    padding: 1.5em;
     border-radius: 1em;
     width: 24%;
     box-sizing: border-box;
 }
 .summary {
-  
+    color: #d7d3c7;
+    background-color: #5c443a;
+    width: 20%;
+    box-sizing: border-box;
+    padding: 1.5em;
+    border-radius: 1em;
 }
 .half {
 width: 49%;
@@ -62,6 +73,9 @@ width: 49%;
 .third {
 width: 33.3%;
 }
+.three-fourths {
+    width: 73%;
+}
 .full {
     width: 99%;
 }
@@ -69,7 +83,6 @@ width: 33.3%;
     display: flex;
     justify-content: space-around;
     object-fit: cover;
-    align-items: ;
 }
 .bigimage {
     width: 100%;
@@ -77,4 +90,9 @@ width: 33.3%;
   object-position: 0 0;
   height: 40vh;  
 }
-
+.paragraph {
+    display: flex;
+    position: relative;
+    margin-right: 50vh;
+    font-size: 16pt;
+}
