@@ -101,3 +101,9 @@ width: 33.3%;
     margin-right: 50vh;
     font-size: 16pt;
 }
+@media only screen and (max-width:640px){
+    #products{
+        grid-template:1fr;
+        padding:1em;
+    }
+}
