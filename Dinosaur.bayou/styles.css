@@ -7,21 +7,97 @@ body {
 .time {
     padding-left: 3em;
 }
+nav {
+    background-color: #5c443a;
+    display: flex;
+    justify-content: space-evenly;
+}
 a:link,
 a:visited {
-    color: rgb(180, 216, 180);
+    color: #d7d3c7;
     padding: 1.25em;
-    background-color: rgb(94, 76, 48);
-    display: inline-block;
+    font-size: 1.5rem;
+    /* background-color: rgb(94, 76, 48); */
+    display: inline-flex;
+    justify-content: space-around;
     text-decoration: none;
     transition: all 0.5s ease;
 }
 a:hover,
 a:visited:hover {
     color: rgb(95, 87, 49);
-    background-color: rgb(180, 216, 180);;
+    background-color: rgb(180, 216, 180);
 }
 /* a:visited {
     color: rgb(60, 104, 60);
 } */
+.flex {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 1em 0;
+}
+.ticket {
+    background-color: #d7d3c7;
+    border: solid;
+    border-color: #5c443a;
+}
 
+.packages {
+    color: #d7d3c7;
+    justify-content: space-between;
+    display: flex;
+
+}
+.package {
+    background-color: #5c443a; 
+    padding: 1.5em;
+    border-radius: 1em;
+    width: 24%;
+    box-sizing: border-box;
+}
+.summary {
+    color: #d7d3c7;
+    background-color: #5c443a;
+    width: 20%;
+    box-sizing: border-box;
+    padding: 1.5em;
+    border-radius: 1em;
+}
+.half {
+width: 49%;
+}
+.quarter {
+    width: 25%;
+}
+.quarter2 {
+    width: 25%;
+    height: 100vh;
+    object-fit: cover;
+}
+.third {
+width: 33.3%;
+}
+.three-fourths {
+    width: 73%;
+}
+.full {
+    width: 99%;
+}
+.images {
+    display: flex;
+    justify-content: space-around;
+    object-fit: cover;
+}
+.bigimage {
+    width: 100%;
+  object-fit: cover;
+  object-position: 0 0;
+  height: 40vh;  
+}
+.paragraph {
+    display: flex;
+    position: relative;
+    margin-right: 50vh;
+    font-size: 16pt;
+}
