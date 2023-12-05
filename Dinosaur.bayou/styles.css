@@ -97,7 +97,7 @@ width: 33.3%;
 }
 
 .buttons {
-color: #d7d3c7;
+    color: #d7d3c7;
     background-color: #5c443a;
     width: 20%;
     box-sizing: border-box;
@@ -112,6 +112,8 @@ color: #d7d3c7;
     position: relative;
     margin-right: 50vh;
     font-size: 16pt;
+}
+.apply {    
 }
 
 @media only screen and (max-width:640px){
