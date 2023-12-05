@@ -107,3 +107,10 @@ width: 33.3%;
         padding:1em;
     }
 }
+div{
+    background-color:#b2a696;
+    width:300px;
+    border:15px #5c443a;
+    padding:50px;
+    margin:20px;
+}
