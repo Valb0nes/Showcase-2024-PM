@@ -95,12 +95,27 @@ width: 33.3%;
   object-position: 0 0;
   height: 40vh;  
 }
+
+.buttons {
+    color: #d7d3c7;
+    background-color: #5c443a;
+    width: 20%;
+    box-sizing: border-box;
+    padding: 1.5em;
+    border-radius: 1em;
+}
+.link {
+    background-color: #5c443a;
+}
 .paragraph {
     display: flex;
     position: relative;
     margin-right: 50vh;
     font-size: 16pt;
 }
+.apply {    
+}
+
 @media only screen and (max-width:640px){
     #products{
         grid-template:1fr;
