@@ -116,6 +116,9 @@ width: 33.3%;
 .apply {    
     color: #d7d3c7;
     background-color: #5c443a;
+    box-sizing: border-box;
+    border-radius: 1em;
+    /* width: 15%; */
 }
 
 
