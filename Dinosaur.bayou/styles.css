@@ -113,9 +113,10 @@ color: #d7d3c7;
     margin-right: 50vh;
     font-size: 16pt;
 }
-@media only screen and (max-width:640px) {
-    #products {
-        grid-template-columns: 1fr;
-        padding: 1em;
+
+@media only screen and (max-width:640px){
+    #products{
+        grid-template:1fr;
+        padding:1em;
     }
 }
