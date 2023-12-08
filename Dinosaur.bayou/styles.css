@@ -4,6 +4,32 @@ body {
     background-color: #b2a696;
     font-family: 'garamond';
 }
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    overflow:hidden;
+}
+
+header {
+    width: 100vw;
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header.menu {
+    background-image: url(images/Firefly\ jurassic\ jungle\ scenery\ with\ a\ lake\ and\ misty\ air\ 51785.jpg);
+}
+header.experience {
+    background-image: url(images/Firefly\ a\ resturaunt\ themed\ after\ jurassic\ park\ with\ leaves\ inside\ 39416.jpg)
+}
+
+
 .time {
     padding-left: 3em;
 }
@@ -65,7 +91,7 @@ a:visited:hover {
     border-radius: 1em;
 }
 .half {
-width: 49%;
+width: 48%;
 }
 .quarter {
     width: 25%;
@@ -120,7 +146,13 @@ width: 33.3%;
     border-radius: 1em;
     /* width: 15%; */
 }
-
+.home {
+    display: flex;
+    
+}
+.home-content {
+    font-size: 1.5rem;
+}
 
 @media only screen and (max-width:640px){
     #products{
